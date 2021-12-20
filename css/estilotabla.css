@@ -1,0 +1,18 @@
+
+.contenedorBotones img{
+    width: 50px;
+}
+
+.contenedorBotones img:hover{
+    scale:(1.1);
+}
+
+.contenedorImagen img {
+    width: 150px;
+}
+
+.Tabla {
+    float: left;
+    margin: 30px;
+    background-color: lightgray;
+}

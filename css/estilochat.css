@@ -1,0 +1,117 @@
+.contenedorchatbot {
+    background-color: #ffe4c4d7;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 10px;
+    border: 3px  solid rgb(240, 178, 240);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.btnchatbot {
+    width: 100%;
+}
+
+.btnchatbot:hover {
+    transform: scale(1.1);
+}
+.violet{
+    width: 33px;
+    height: 33px;
+    position: fixed;
+}
+
+.cuadrochatbot {
+    width:300px;
+    height: 400px;
+    background-color:rgba(255, 224, 248, 0.801);
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.encabezadochatbot {
+    width: 280px;
+    height: 30px;
+    padding: 0px;
+    color: rgba(84, 5, 87, 0.884);
+    font-size: large;
+    font-family: cursive;
+}
+
+.btncerrar{
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.btncerrar:hover{
+    transform: scale(1.2);
+}
+
+.chatchatbot {
+    background-color: rgba(208, 133, 218, 0.267);
+    height: 270px;
+    padding: 5px;
+    margin: 5px;
+    overflow: scroll;
+}
+
+.escriturachatbot{
+    margin:5px;
+    background-color: ivory;
+    height: 30px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.btnenviar{
+    width: 25px;
+    float: right;
+}
+.btnenviar:hover{
+    transform: scale(1.1);
+}
+
+.mensajes{
+    height: 25px;
+    width: 250px;
+    border: 1px solid white;
+    color: rgba(80, 139, 197, 0.726);
+    float: left;
+    font-family:cursive;
+}
+
+.mensajeusuario{
+    text-align: right;
+    color: blueviolet;
+    text-overflow: clip;
+    font-family: cursive;
+}
+/*CODIGO DE BARRA*/
+.chatchatbot::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.chatchatbot.chatchatbot::-webkit-scrollbar:vertical{
+    width: 9px;
+}
+.chatchatbot::-webkit-scrollbar-button:increment,.chatchatbot::-webkit-scrollbar-button{
+    display: none;
+}
+.chatchatbot::-webkit-scrollbar:horizontal{
+    height: 9px;
+}
+.chatchatbot::-webkit-scrollbar-thumb{
+    background-color: rgb(244, 114, 249);
+    border-radius: 20px;
+    border: 2px solid rgb(244, 114, 249);
+}
+.chatchatbot::-webkit-scrollbar-track{
+    border-radius: 10px;
+}

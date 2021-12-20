@@ -1,0 +1,139 @@
+.izquierda {
+    background-color: #d088d3 ;
+    width: 25%;
+    height: 600px;
+    float: left;
+    margin-left: 5px;
+}
+ul {
+    color:white;
+    padding: 20 px;
+    margin: 0px;
+    text-align: center;
+}
+ul#2{
+    padding: 20px;
+    margin: 0px;
+}
+ul#2:hover {
+    scale: 1.1;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+.menu{
+    background-color: blueviolet;
+    width: 300px;
+    padding: 35px;
+    text-align: center;
+    color: cornsilk;
+    float: left;
+    margin: 15px;
+}
+.menu li:hover {
+    background-color: indianred;
+}
+.menu .foto{
+    width: 200px;
+}
+
+td{
+    width: 300px;
+    background-color: indigo;
+}
+.redes{
+    width: 20px;
+    margin: 5px;
+}
+.redes:hover{
+    background-color: rgb(241, 229, 229);
+    transform: scale(1.4);
+}
+div#contenedorImagen {
+    padding: 10px;
+    background-color: rgb(97, 44, 44);
+}
+hr:hover {
+    margin: 10px;
+    background-color:brown;
+    scale: 1.1;
+}
+.uno {
+    height: 3px;
+    width: 30%;
+    background-color: rgb(209, 138, 227);
+    border-color: rgb(203, 113, 230);
+}
+.dos {
+    height: 3px;
+    width: 30%;
+    background-color: rgb(216, 159, 243);
+    border-color: rgb(218, 149, 235); 
+}
+
+br{
+    color: rgb(107, 14, 14);
+}
+p{
+    color:white;
+    text-align: right;
+    text-align: left;
+}
+p0 {
+    text-align: center;
+}
+p1{
+    color: white;
+    text-align: right;
+}
+p2{
+    color: white;
+    text-align: left;
+}
+.derecha {
+    background-color: #90a5e9;
+    float: right;
+    width: 65%;
+    height: 1500px;
+    margin: 0px;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    text-align-last: center;
+}
+h6 {
+    color: white;
+    text-align: center;
+}
+img-au {
+    float:left;
+}
+.p1 {
+    text-align: right;
+}
+.p2 {
+    text-align: left;
+}
+imagen1 {
+    scale: 1.1;
+}
+.ima1 {
+text-align: left;
+float: left;
+}
+.ima2 {
+    text-align:right;
+    float: right;
+    }
+    .tabla tr:hover {
+        background-color: tomato;
+        transform: scale(1.1);
+    }

@@ -1,0 +1,42 @@
+p {
+    color: blueviolet;
+    text-align: center;
+}
+
+.menu{
+    background-color: blueviolet;
+    width: 300px;
+    padding: 35px;
+    text-align: center;
+    color: cornsilk;
+    float: left;
+    margin: 15px;
+}
+.menu li:hover {
+    background-color: indianred;
+}
+
+.menu .foto{
+    width: 200px;
+}
+
+td{
+    width: 300px;
+    background-color: indigo;
+}
+.redes{
+    width: 20px;
+    margin: 5px;
+}
+.redes:hover{
+    background-color: lightcoral;
+    transform: scale(1.4);
+}
+
+.tabla tr:hover {
+    background-color: tomato;
+    transform: scale(1.1);
+}
+div.contenedorBotones {
+scale: 1.4;
+}
